@@ -19,9 +19,18 @@ status-website:
   footer:
     - title: Zerio
       href: https://zerio.se
+      expectedStatusCodes:
+        - 200
+        - 429
     - title: Zerio Restaurant
       href: https://restaurant.zerio.se
+      expectedStatusCodes:
+        - 200
+        - 429
     - title: Zerio Restaurant API
+      href: https://restaurant.zerio.se/api/health
+      expectedStatusCodes:
+        - 200
   navbar:
     - title: Status
       href: /
