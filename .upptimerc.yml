@@ -12,9 +12,15 @@ sites:
 status-website:
   cname: status.zerio.se
   logoUrl: https://zerio.se/logo.png
-  name: Zerio Status
-  introTitle: "**Zerio Status** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/Zerio-AB/status-page). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/Zerio-AB/status-page)
+  name:
+  introTitle: "Här kan du se aktuell status för samtliga av våra hemsidor och API:er"
+  introMessage:
+  footer:
+    - title: Zerio
+      href: https://zerio.se
+    - title: Zerio Restaurant
+      href: https://restaurant.zerio.se
+    - title: Zerio Restaurant API
   navbar:
     - title: Status
       href: /
