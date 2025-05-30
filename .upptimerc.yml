@@ -12,7 +12,7 @@ sites:
 status-website:
   cname: status.zerio.se
   logoUrl: https://zerio.se/logo.png
-  name: ""
+  name: "Zerio AB - Status"
   introTitle: "Här kan du se aktuell status för samtliga av våra hemsidor och API:er"
   favicon: https://zerio.se/favicon.ico
   introMessage: ""
