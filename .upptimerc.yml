@@ -8,8 +8,6 @@ sites:
     url: https://restaurant.zerio.se
   - name: Zerio Restaurant API
     url: https://restaurant.zerio.se/api/health
-  - name: Stripe Payments API
-    url: https://api.stripe.com/v1/health
 
 status-website:
   cname: status.zerio.se
