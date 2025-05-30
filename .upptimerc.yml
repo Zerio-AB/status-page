@@ -36,65 +36,65 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  i18n:
-    activeIncidents: Aktiva incidenter
-    allSystemsOperational: Alla system fungerar
-    incidentReport: "Incident #$NUMBER rapport →"
-    activeIncidentSummary: Öppnad $DATE med $POSTS inlägg
-    incidentTitle: Incident $NUMBER Detaljer
-    incidentDetails: Incident Detaljer
-    incidentFixed: Löst
-    incidentOngoing: Pågående
-    incidentOpenedAt: Öppnad
-    incidentClosedAt: Stängd
-    incidentViewOnGitHub: Visa och prenumerera på GitHub
-    incidentCommentSummary: Postad $DATE av $AUTHOR
-    incidentBack: ← Tillbaka till alla incidenter
-    pastIncidents: Tidigare incidenter
-    pastIncidentsResolved: Löst på $MINUTES minuter med $POSTS inlägg
-    liveStatus: Live Status
-    overallUptime: "Total drifttid: $UPTIME"
-    overallUptimeTitle: Total drifttid
-    averageResponseTime: "Genomsnittlig svarstid: $TIMEms"
-    averageResponseTimeTitle: Genomsnittlig svarstid
-    sevelDayResponseTime: 7-dagars svarstid
-    responseTimeMs: Svarstid (ms)
-    up: Uppe
-    down: Nere
-    degraded: Försämrad
-    ms: ms
-    loading: Laddar
-    navGitHub: GitHub
-    footer: Den här sidan är [öppen källkod]($REPO), drivs av [Upptime](https://upptime.js.org)
-    rateLimitExceededTitle: Hastighetsgräns överskriden
-    rateLimitExceededIntro: Du har överskridit antalet förfrågningar du kan göra på en timme, så du måste vänta innan du kommer åt den här webbplatsen igen. Alternativt kan du lägga till en GitHub Personal Access Token för att fortsätta använda den här webbplatsen.
-    rateLimitExceededWhatDoesErrorMean: Vad betyder det här felet?
-    rateLimitExceededErrorMeaning: Den här webbplatsen använder GitHub API för att komma åt realtidsdata om våra webbplatsers status. Som standard tillåter GitHub varje IP-adress 60 förfrågningar per timme, vilket du har förbrukat.
-    rateLimitExceededErrorHowCanFix: Hur kan jag åtgärda det?
-    rateLimitExceededErrorFix: Du kan vänta en timme till så återställs din IP-adress gräns. Alternativt kan du lägga till din GitHub Personal Access Token, vilket ger dig ytterligare 5 000 förfrågningar per timme.
-    rateLimitExceededGeneratePAT: Lär dig hur du genererar en Personal Access Token
-    rateLimitExceededHasSet: Du har en personal access token inställd.
-    rateLimitExceededRemoveToken: Ta bort token
-    rateLimitExceededGitHubPAT: GitHub Personal Access Token
-    rateLimitExceededCopyPastePAT: Kopiera och klistra in din token
-    rateLimitExceededSaveToken: Spara token
-    errorTitle: Ett fel uppstod
-    errorIntro: Ett fel uppstod när vi försökte hämta de senaste statusdetaljerna.
-    errorText: Du kan försöka igen om ett ögonblick.
-    errorHome: Gå till startsidan
-    pastScheduledMaintenance: Tidigare schemalagt underhåll
-    scheduledMaintenance: Schemalagt underhåll
-    scheduledMaintenanceSummaryStarted: Startade $DATE i $DURATION minuter
-    scheduledMaintenanceSummaryStarts: Startar $DATE i $DURATION minuter
-    startedAt: Startade
-    startsAt: Startar
-    duration: Varaktighet
-    durationMin: $DURATION minuter
-    incidentCompleted: Slutförd
-    incidentScheduled: Schemalagd
-    duration24H: 24h
-    duration7D: 7d
-    duration30D: 30d
-    duration1Y: 1å
-    durationAll: alla
-    locale: sv-SE
+i18n:
+  activeIncidents: Aktiva incidenter
+  allSystemsOperational: Alla system fungerar
+  incidentReport: "Incident #$NUMBER rapport →"
+  activeIncidentSummary: Öppnad $DATE med $POSTS inlägg
+  incidentTitle: Incident $NUMBER Detaljer
+  incidentDetails: Incident Detaljer
+  incidentFixed: Löst
+  incidentOngoing: Pågående
+  incidentOpenedAt: Öppnad
+  incidentClosedAt: Stängd
+  incidentViewOnGitHub: Visa och prenumerera på GitHub
+  incidentCommentSummary: Postad $DATE av $AUTHOR
+  incidentBack: ← Tillbaka till alla incidenter
+  pastIncidents: Tidigare incidenter
+  pastIncidentsResolved: Löst på $MINUTES minuter med $POSTS inlägg
+  liveStatus: Live Status
+  overallUptime: "Total drifttid: $UPTIME"
+  overallUptimeTitle: Total drifttid
+  averageResponseTime: "Genomsnittlig svarstid: $TIMEms"
+  averageResponseTimeTitle: Genomsnittlig svarstid
+  sevelDayResponseTime: 7-dagars svarstid
+  responseTimeMs: Svarstid (ms)
+  up: Uppe
+  down: Nere
+  degraded: Försämrad
+  ms: ms
+  loading: Laddar
+  navGitHub: GitHub
+  footer: Den här sidan är [öppen källkod]($REPO), drivs av [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Hastighetsgräns överskriden
+  rateLimitExceededIntro: Du har överskridit antalet förfrågningar du kan göra på en timme, så du måste vänta innan du kommer åt den här webbplatsen igen. Alternativt kan du lägga till en GitHub Personal Access Token för att fortsätta använda den här webbplatsen.
+  rateLimitExceededWhatDoesErrorMean: Vad betyder det här felet?
+  rateLimitExceededErrorMeaning: Den här webbplatsen använder GitHub API för att komma åt realtidsdata om våra webbplatsers status. Som standard tillåter GitHub varje IP-adress 60 förfrågningar per timme, vilket du har förbrukat.
+  rateLimitExceededErrorHowCanFix: Hur kan jag åtgärda det?
+  rateLimitExceededErrorFix: Du kan vänta en timme till så återställs din IP-adress gräns. Alternativt kan du lägga till din GitHub Personal Access Token, vilket ger dig ytterligare 5 000 förfrågningar per timme.
+  rateLimitExceededGeneratePAT: Lär dig hur du genererar en Personal Access Token
+  rateLimitExceededHasSet: Du har en personal access token inställd.
+  rateLimitExceededRemoveToken: Ta bort token
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: Kopiera och klistra in din token
+  rateLimitExceededSaveToken: Spara token
+  errorTitle: Ett fel uppstod
+  errorIntro: Ett fel uppstod när vi försökte hämta de senaste statusdetaljerna.
+  errorText: Du kan försöka igen om ett ögonblick.
+  errorHome: Gå till startsidan
+  pastScheduledMaintenance: Tidigare schemalagt underhåll
+  scheduledMaintenance: Schemalagt underhåll
+  scheduledMaintenanceSummaryStarted: Startade $DATE i $DURATION minuter
+  scheduledMaintenanceSummaryStarts: Startar $DATE i $DURATION minuter
+  startedAt: Startade
+  startsAt: Startar
+  duration: Varaktighet
+  durationMin: $DURATION minuter
+  incidentCompleted: Slutförd
+  incidentScheduled: Schemalagd
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1å
+  durationAll: alla
+  locale: sv-SE
