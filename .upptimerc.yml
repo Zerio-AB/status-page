@@ -2,11 +2,11 @@ owner: Zerio-AB
 repo: status-page
 
 sites:
-  - name: Zerio Main Site
+  - name: zerio.se
     url: https://zerio.se
-  - name: Zerio Restaurant Site
+  - name: restaurant.zerio.se
     url: https://restaurant.zerio.se
-  - name: Zerio Restaurant API
+  - name: restaurant.zerio.se API
     url: https://restaurant.zerio.se/api/health
 
 status-website:
