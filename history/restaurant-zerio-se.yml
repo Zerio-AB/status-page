@@ -1,7 +1,7 @@
 url: https://restaurant.zerio.se
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-09-02T17:05:50.767Z
+status: up
+code: 429
+responseTime: 240
+lastUpdated: 2025-09-02T17:17:15.645Z
 startTime: 2025-05-30T18:50:26.313Z
 generator: Upptime <https://github.com/upptime/upptime>
